@@ -16,5 +16,6 @@ jobs:
       
       - name: Send POST request
         run: |
-          curl -X POST https://api.manifest-hq.com/update-documentations-assistants \
-          -H "Content-Type: application/json" 
+          curl -X POST https://api.manifest-hq.com/gpt4 \
+          -H "Content-Type: application/json" \
+          -d '{"query":"hola"}'
