@@ -1,0 +1,1 @@
+- **Database Structure**: Provides a view for editing and migrating the database schema, enabling developers to manage and modify the structure of the database efficiently. This feature is crucial for maintaining data integrity and ensuring that the database evolves in line with the application's requirements, facilitating seamless updates and migrations.
