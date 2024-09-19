@@ -1,8 +1,6 @@
 name: Update Documentation
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push events but only for the "main" branch
   push:
     branches: [ "main" ]
   workflow_dispatch:
@@ -16,6 +14,5 @@ jobs:
       
       - name: Send POST request
         run: |
-          curl -X POST https://api.manifest-hq.com/gpt4 \
+          curl -X POST https://api.manifest-hq.com/update-documentations-assistants \
           -H "Content-Type: application/json" \
-          -d '{"query":"hola"}'
