@@ -14,5 +14,5 @@ jobs:
       
       - name: Send POST request
         run: |
-          curl -X POST https://api.manifest-hq.com/update-documentations-assistants \
+          curl -X POST https://api.manifest-hq.com/openai-update-platform-assistant \
           -H "Content-Type: application/json" \
